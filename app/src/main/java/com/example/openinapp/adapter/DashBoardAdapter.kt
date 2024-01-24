@@ -4,9 +4,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-
-class TabAdapter() : RecyclerView.Adapter<TabAdapter.ViewHolder>()  {
-    inner class ViewHolder(itemVIew: View):RecyclerView.ViewHolder(itemVIew) {
+class DashBoardAdapter : RecyclerView.Adapter<DashBoardAdapter.ViewHolder>() {
+    inner  class ViewHolder(view: View):RecyclerView.ViewHolder(view){
 
     }
 
@@ -15,10 +14,11 @@ class TabAdapter() : RecyclerView.Adapter<TabAdapter.ViewHolder>()  {
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return 0
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         TODO("Not yet implemented")
     }
+
 }
