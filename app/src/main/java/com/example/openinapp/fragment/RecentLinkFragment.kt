@@ -44,6 +44,9 @@ class RecentLinkFragment : Fragment() {
         viewModel.getApiLink()
         viewModel.topLinks.observe(viewLifecycleOwner){
             recyclerView(it)
+
+
+
         }
         return  view
     }
